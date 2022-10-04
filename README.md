@@ -29,6 +29,8 @@ The following repo, when deployed as an app within CloudKommand creates a full b
 - Multiple Lambda Functions to handle different use cases, with a Lambda Layer to store shared code
 - A policy that locks down the Lambda Function access to the above-mentioned table, bucket, and user pool.
 
+To explore the infrastructure configuration for this, check out the kommand.json file at the base level of this repo.
+
 ## How to try it out:
 - Deploy this repo as an app within CloudKommand (using this repo's base url)
 - Open the Postman collection at the base level of this repo in Postman
